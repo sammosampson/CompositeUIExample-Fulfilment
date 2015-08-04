@@ -1,0 +1,34 @@
+{
+  "name": "compositeuiexample-fulfilment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "jspm": {
+    "directories": {
+      "lib": "lib"
+    },
+    "main": "index.js",
+    "format": "es6",
+    "registry": "jspm",
+    "dependencies": {
+      "bootstrap": "npm:bootstrap@^3.3.5",
+      "fetch": "npm:whatwg-fetch@^0.9.0",
+      "flux": "npm:flux@^2.0.3",
+      "react": "npm:react@^0.14.0-alpha3",
+      "react-components": "github:sammosampson/CompositeUIExample-React@0.1.0",
+      "whatwg-fetch": "npm:whatwg-fetch@^0.9.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4",
+      "events": "npm:events@^1.0.2",
+      "flux": "npm:flux@^2.0.3"
+    }
+  }
+}
